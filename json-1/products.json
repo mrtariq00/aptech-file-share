@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Apple MacBook Air M4",
+    "price": 1299,
+    "qty": 14,
+    "img": "img/macbookm4.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "ASUS TUF Gaming F15",
+    "price": 1099,
+    "qty": 9,
+    "img": "img/ASUS-F15.png"
+  },
+  {
+    "id": 3,
+    "name": "iPhone 15 Pro Max",
+    "price": 1299,
+    "qty": 18,
+    "img": "img/iphonepromax15.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy Z Fold 5",
+    "price": 1799,
+    "qty": 7,
+    "img": "img/Samsung-Fold5.png"
+  },
+  {
+    "id": 5,
+    "name": "Corsair Vengeance DDR5 32GB RAM",
+    "price": 149,
+    "qty": 40,
+    "img": "img/Corsair-DDR5-32GB-RAM.png"
+  },
+  {
+    "id": 6,
+    "name": "Kingston Fury RGB Beast 16GB RAM",
+    "price": 79,
+    "qty": 55,
+    "img": "img/Kingston-Beast-16GB-RAM.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Samsung 980 PRO 1TB NVMe SSD",
+    "price": 129,
+    "qty": 60,
+    "img": "img/Samsung-980-PRO-1TB-NVMe-SSD.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Seagate Barracuda 2TB HDD",
+    "price": 59,
+    "qty": 70,
+    "img": "img/Seagate-2TB-HDD.webp"
+  },
+  {
+    "id": 9,
+    "name": "WD Black SN850X 2TB NVMe SSD",
+    "price": 199,
+    "qty": 30,
+    "img": "img/WD-Black-2TB-NVMe-SSD.jpg"
+  }
+]

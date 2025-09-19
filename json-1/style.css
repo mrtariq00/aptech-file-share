@@ -1,0 +1,125 @@
+:root {
+  --neon-blue: #00f7ff;
+  --neon-red: #ff003c;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+/* Header */
+.navbar {
+  background: linear-gradient(45deg, #000, #1a1a1a);
+  border-bottom: 2px solid var(--neon-red);
+  box-shadow: 0 0 20px rgba(255, 0, 60, 0.3);
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: #fff !important;
+  text-shadow: 0 0 10px var(--neon-blue);
+}
+
+.nav-link {
+  color: white !important;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 10px var(--neon-blue);
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(145deg, #1a1a1a, #000);
+  border-bottom: 1px solid #333;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #ff003c, #00f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(255, 0, 60, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #ff003c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero-button:hover {
+  background: #00f7ff;
+  box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(145deg, #1a1a1a, #000);
+  border: 1px solid #333;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+}
+
+.card-title {
+  color: var(--neon-red);
+}
+
+.card-text {
+  color: #ccc;
+}
+
+.price {
+  color: var(--neon-blue);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: var(--neon-red);
+  color: white;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: var(--neon-blue);
+  box-shadow: 0 0 15px var(--neon-blue);
+  color: white;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(45deg, #000, #1a1a1a);
+  border-top: 2px solid var(--neon-red);
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+.fixed-img {
+  height: 300px;         /* consistent height for all images */
+  object-fit: cover;     /* crop instead of stretch */
+  border-bottom: 1px solid #333; /* optional: separates image from body */
+}
