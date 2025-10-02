@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    :root {
+      --blue: rgb(0, 110, 255);
+      --text: #fff;
+    }
+    footer {
+      font-size: 15px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: var(--blue);
+      color: white;
+      margin-top: 20px;
+    }
+    #error {
+      color: var(--text);
+    }
+    * {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(44, 43, 43);
+      color: rgb(255, 255, 255);
+    }
+    input {
+      width: 150px;
+      height: 30px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+    button {
+      width: 60px;
+      height: 33px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      margin-left: 10px;
+      cursor: pointer;
+      background-color: var(--blue);
+      color: white;
+    }
+    .input-cont {
+      padding: 10px;
+      display: flex;
+      margin-left: 40vw;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 25px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      background-color: var(--blue);
+      color: white;
+    }
+    .info-cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 40vw;
+      margin-right: 20px;
+    }
+    .left {
+      width: 40vw;
+    }
+    .right-partFirst {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .pri {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .pri2 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .right-partFirst p,
+    .left p {
+      color: gray;
+      font-weight: normal;
+    }
+    @media (max-width: 600px) {
+      .info-cont {
+        flex-direction: column;
+      }
+      .input-cont {
+        padding: 10px;
+        display: flex;
+        margin-left: 0;
+      }
+      .right,
+      .left {
+        width: 90vw;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .loc {
+        text-align: right;
+        width: 30vw;
+        margin-left: 10px;
+        color: gray;
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 5px;
+      }
+      header {
+        height: 120px;
+      }
+    }
+    .loc {
+      text-align: right;
+      width: 30vw;
+      margin-left: 10px;
+      color: gray;
+      font-size: 15px;
+      font-weight: normal;
+      margin-top: 5px;
+    }
+  </style>
+  <body>
+    <header>Weather App By Tariq</header>
+    <div class="input-cont">
+      <input type="text" id="city" placeholder="Enter City Name" />
+      <button onclick="Api()">Show</button>
+      <div class="loc"></div>
+    </div>
+    <div id="error"></div>
+    <!-- <div class="info-cont">
+
+      <div class="right">
+        <img
+          src="https://cdn.weatherapi.com/weather/64x64/day/113.png"
+          alt=""
+          height="150px"
+          width="150px"
+        />
+        <div class="right-partFirst">
+          <span class="pri">20 C</span>
+          <p>
+            Feels like 43°C <br />
+            Condition - Sunny <br />
+            Humidity: 4% · Wind: 9.7 kph
+          </p>
+        </div>
+      </div>
+      <div class="left">
+        <div>
+          <span class="pri2">Today — 2025-09-30</span>
+          <p>
+            Max: 19°C · Min: 12°C <br />
+            Avg Humidity: 53% · Chance of rain: 0% <br />
+            Sunny
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <footer><h5>All Rights Reserved By Tariq</h5></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
