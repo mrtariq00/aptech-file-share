@@ -18,7 +18,7 @@ function dangerNot() {
 }
 async function Api() {
   let apiCalls = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=d75cc7f4488c4e2482551255253009&q=${City.value}&aqi=no`
+    `https://api.weatherapi.com/v1/forecast.json?key=d75cc7f4488c4e2482551255253009&q=${City.value}&aqi=no`
   );
   let data = await apiCalls.json();
   console.log(data);
